@@ -42,5 +42,4 @@ resource "aws_instance" "example" {
     instance_type = "${var.ec2_instance}"
     vpc_security_group_ids = [aws_security_group.ssh-allowed.id]
     key_name = "mykey"
-
 }
