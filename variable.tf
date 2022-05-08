@@ -3,11 +3,11 @@ variable "aws_region" {
 }
 
 variable "access_key" {
-    default = "AKIAZDX6Y5MFQYYC5PMZ"
+    default = ""
 }
 
 variable "secret_key" {
-    default = "ryglAKuHUZgVlcH3dcnwhyy1fKdZaivAZ2rKMLcl"
+    default = ""
 }
 
 variable "ami_ec2" {
